@@ -12,4 +12,4 @@ def final():
     return render_template('final.html', url = text, stat = labe)
 
 if __name__ == "__main__":
-    app.run('127.0.0.1',port='2523')
+    app.run()
